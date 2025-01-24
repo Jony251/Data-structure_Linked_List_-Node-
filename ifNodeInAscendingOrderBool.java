@@ -9,7 +9,7 @@ public class ifNodeInAscendingOrderBool {
         int[] array_true = {1, 2, 3, 4, 5};
         int[][] testArr = {array_false1, array_false2, array_false3, array_false4, array_true};
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < testArr.length ; i++) {
             Node<Integer> hTest = null;
             hTest = createLinkedList(testArr[i]);
             printAllNodeVal(hTest);
